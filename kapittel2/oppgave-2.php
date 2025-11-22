@@ -3,7 +3,7 @@
 /* Programmet mottar fra et HTML-skjema et svar på spørsmålet "Er du student (j/n) ?"
 /* Programmet sjekker om det er svart j eller n på spørsmålet og skriver ut en passende melding
 */
-$svar=$_POST ["svar"];
+$svar=$_POST ["svar"] ?? ''; 
 if (!$svar) /* det er ikke svart på spørsmålet */
 {
 print("Du har ikke svart p&aring; sp&oslash;rsm&aring;let om du er student <br/>");
