@@ -1,23 +1,17 @@
 <?php
-$svar=$_POST["svar"] ?? '';
-if (!$svar)
-{
-    print (" Du har ikke svart på spørmålet om du er student <br/>");
-}
-else if ($svar== "j") 
-{
-    print (" du har svart ja på spørsmålet, om du er student <br/>");
+$Svar = $_POST["svar"];
 
+if (!$Svar) {
+    print("Du har ikke svart på spørsmålet ennå");
 }
-else if ($svar == "n")
-{
-    print (" du har svart nei på spørmålet, om du er sstudent <br/>");
-
+else if ($Svar == "j") {
+    print("Du har svart ja på spørsmålet, og du er student");
 }
-else
-{
-    print (" du har ikke svart ja eller nei på spørmålet om du er student <br/>");
-
+else if ($Svar == "n") {
+    print("Du har svart nei på spørsmålet, og du er ikke student");
 }
-?> 
+else {
+    print("Du har ikke svart ja eller nei på spørsmålet");
+}
+?>
     
