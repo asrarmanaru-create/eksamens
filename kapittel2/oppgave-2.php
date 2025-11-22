@@ -1,5 +1,5 @@
 <?php
-$svar=$_POST["svar"];
+$svar=$_POST["svar"] ?? '';
 if (!$svar)
 {
     print (" Du har ikke svart på spørmålet om du er student <br/>");
