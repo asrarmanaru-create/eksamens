@@ -10,6 +10,9 @@ if ($tall1 < $tall2) {
     print(" tall 1 er mindre enn tall 2 <br/>");
 
 }
+else if ($tall1 > $tall2){
+    print(" tall 1 er st&oslash;rre enn tall 2 <br/>");
+}
 else if ("tall1 == tall2") {
     print(" tall 1 er  lik tall 2 <br/>");
 
