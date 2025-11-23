@@ -1,8 +1,8 @@
 <?php 
 // første linje: 1 til 10
 for ($tall = 1; $tall <= 10; $tall++) {
-    print "$tall" ; 
-    
+    print "$tall " ; 
+
 }
 print "<br>"; 
 
