@@ -7,7 +7,8 @@
 </head>
 <body>
     <h2> skriv inn tre tall</h2> 
-    <form method="post" 
+    <form method="post">
+
     Tall 1: <input type="number" name="tall1" required><br/>
     Tall 2: <input type="number" name="tall2" required><br/>
     Tall 3: <input type="number" name="tall3" required><br/>
