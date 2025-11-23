@@ -21,7 +21,7 @@
         $tall3 = $_POST["tall3"];
 
         print("<h3> Resultat : </h3>");
-        print("Tall 1 er $tall<br>");
+        print("Tall 1 er $talll<br>");
         print("Tall 2 er $tall2<br>");
         print("Tall 3 er $tall3<br><br>");
 
