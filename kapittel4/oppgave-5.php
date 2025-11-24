@@ -44,7 +44,7 @@ $klassekode = $_POST["klassekode"];
 
 $lovligKlassekode = validerKlassekode($klassekode);
 
-if ($lovligklassekode) {
+if ($lovligKlassekode) {
     print ("klassekode er korrekt fylt ut <br/>");
 
 }
