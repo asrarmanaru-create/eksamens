@@ -23,7 +23,7 @@ else
 
     $siffer1 = substr($emnekode,3,1);
     $siffer2 = substr($emnekode,4,1);
-    $siffer = substr($emnekode,5,1);
+    $siffer3 = substr($emnekode,5,1);
 
     $siste = substr($emnekode,6,1);
 
